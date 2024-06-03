@@ -1,0 +1,7 @@
+cd /path/to/your/project
+git init
+git add .
+git commit -m "Initial commit"
+// หลังจากนั้นไปสร้าง repository ใน web github แล้ว copy link มา แล้วก็ remote 
+git remote add origin https://github.com/username/repository.git
+git push -u origin master
